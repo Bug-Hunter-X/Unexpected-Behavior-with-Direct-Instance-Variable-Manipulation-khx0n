@@ -1,0 +1,1 @@
+This example demonstrates a potential issue in Ruby when directly manipulating instance variables using `instance_variable_set`. While functional, this approach bypasses methods that may be responsible for data validation or handling side effects.  It's generally better practice to use methods for accessing and modifying object state for better maintainability and readability.
